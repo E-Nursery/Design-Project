@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+/* a:hover{
+    background-color: #38a74c;
+} */
+
+/* #header{
+    background-image: url(img1.jpg); 
+    border-radius: 6px;
+} */
+
+#header{
+    /* background-image: url(img1.jpg);  */
+    border-radius: 6px;
+    background-color: #bacbf3;
+
+}
+
+#headerbuttons{
+    color: rgb(2, 2, 91); 
+    text-decoration: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    
+}
+
+#flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#div1 {
+    padding: 40px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-left: auto;
+    background-color: #bcbdf9;
+    flex: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+#div2{
+
+    margin: auto;
+    max-width: 680px;
+    padding: 40px;
+    border-radius: 6px;
+    margin-top: 40px;
+    flex: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+/* @media (max-width: 1000px) {
+    #div1, #div2 {
+    flex: 100%;
+    }
+} */
+
+h1 {
+    animation-name: h1example;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+}
+
+@keyframes h1example {
+    0%   {color: #231955;}
+    25%  {color: #1fc350;}
+    50%  {color: #E8AA42;}
+    100% {color: #FFE5B4;}
+}  
+
+#button1{
+    background-color: #AFB4FF;
+    border-radius: 7px;
+    border: none;
+    font-family: aboreto;
+}
